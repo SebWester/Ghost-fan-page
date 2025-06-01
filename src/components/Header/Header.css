@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+}
+
+.top-left,
+.top-right {
+  display: flex;
+  width: 50%;
+  background-color: blue;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+img {
+  width: 150px;
+}
