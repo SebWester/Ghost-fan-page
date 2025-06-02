@@ -6,7 +6,7 @@ function Header() {
       <div className="header">
         <div className="logo-div">
           <img
-            src="./ghost-logo-updated.webp"
+            src="./images/ghost-logo-updated.webp"
             alt="ghost logo"
             id="top-logo"
             className="img-fluid"
