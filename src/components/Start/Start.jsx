@@ -1,13 +1,12 @@
 import Header from "../Header/Header";
+import MainContent from "../Main/MainContent";
 
 function Main() {
   return (
     <>
       <Header />
       <div className="remove">
-        <h1>Ghost fan page</h1>
-        <p>React</p>
-        <p>Bootstrap</p>
+        <MainContent />
       </div>
     </>
   );

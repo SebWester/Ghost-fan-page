@@ -1,0 +1,23 @@
+.album-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 900px;
+  height: 350px;
+  border-radius: 10px;
+
+  font-size: 4em;
+  color: whitesmoke;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  margin: 40px auto;
+}
+
+.album-card h2:hover {
+  scale: 1.3;
+  cursor: pointer;
+}
