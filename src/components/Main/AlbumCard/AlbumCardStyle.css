@@ -1,3 +1,16 @@
+.album-link {
+  font-size: 4em;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.album-link:hover {
+  scale: 1.3;
+  font-size: 5em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
 .album-card {
   display: flex;
   justify-content: center;
@@ -12,15 +25,4 @@
   background-repeat: no-repeat;
 
   margin: 40px auto;
-}
-
-.album-card a {
-  font-size: 4em;
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.album-card a:hover {
-  scale: 1.3;
-  cursor: pointer;
 }

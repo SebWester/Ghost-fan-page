@@ -5,9 +5,7 @@ function Main() {
   return (
     <>
       <Header />
-      <div className="remove">
-        <MainContent />
-      </div>
+      <MainContent />
     </>
   );
 }

@@ -4,11 +4,11 @@ import "./AlbumCardStyle.css";
 function AlbumCard({ img, name }) {
   return (
     <>
-      <div className="album-card" style={{ backgroundImage: `url(${img})` }}>
-        <Link to={`/${name}`}>
+      <Link to={`/${name}`} className="album-link">
+        <div className="album-card" style={{ backgroundImage: `url(${img})` }}>
           <h2>{name}</h2>
-        </Link>
-      </div>
+        </div>
+      </Link>
     </>
   );
 }

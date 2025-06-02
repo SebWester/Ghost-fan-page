@@ -14,13 +14,19 @@ function Header() {
         </div>
 
         <div className="links-div">
-          <a href="https://ghost-official.com/">Official Ghost website</a>
-          <a href="https://www.youtube.com/channel/UCAOiVaJJlH0Oduv48NN0mMA">
-            Ghost on Youtube
-          </a>
-          <a href="https://thebandghost.fandom.com/wiki/Main_Page">
-            Ghostpedia
-          </a>
+          <div className="link">
+            <a href="https://ghost-official.com/">Official Ghost website</a>
+          </div>
+          <div className="link">
+            <a href="https://www.youtube.com/channel/UCAOiVaJJlH0Oduv48NN0mMA">
+              Ghost on Youtube
+            </a>
+          </div>
+          <div className="link">
+            <a href="https://thebandghost.fandom.com/wiki/Main_Page">
+              Ghostpedia
+            </a>
+          </div>
         </div>
       </div>
     </>

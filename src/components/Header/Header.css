@@ -13,7 +13,13 @@
 
 .links-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.link {
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .links-div a {
