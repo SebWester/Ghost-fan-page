@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Start/Start";
+import AlbumPage from "./components/Main/AlbumPage/AlbumPage";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/:name" element={<AlbumPage />} />
         </Routes>
       </BrowserRouter>
     </>
