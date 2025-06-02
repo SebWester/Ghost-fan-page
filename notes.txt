@@ -1,7 +1,0 @@
-Fixa:
-Spotify API
-Tabs
-Lyrics
-Songs List
-Embedded youtube videos
-Hämta senaste nyheterna? 
