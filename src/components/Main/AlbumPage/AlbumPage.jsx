@@ -39,9 +39,11 @@ function AlbumPage() {
             style={{ backgroundImage: `url(${albumCover})` }}
           ></div>
           {album.tracks.map((track, index) => (
-            <p key={track} className="album-track">
-              {index + 1}. {track}
-            </p>
+            <Link to={`/${name}/${track}`} key={track}>
+              <p className="album-track">
+                {index + 1}. {track}
+              </p>
+            </Link>
           ))}
         </div>
       </div>
