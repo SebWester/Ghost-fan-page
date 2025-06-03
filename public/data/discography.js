@@ -7,7 +7,7 @@ export const albums = {
       "Lachryma",
       "Satanized",
       "Guiding Lights",
-      "De Profundis Borialis",
+      "De Profundis Borealis",
       "Cenotaph",
       "Missilia Amori",
       "Marks Of The Evil One",
