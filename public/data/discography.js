@@ -9,7 +9,7 @@ export const albums = {
       "Guiding Lights",
       "De Profundis Borialis",
       "Cenotaph",
-      "Missila Amoris",
+      "Missilia Amori",
       "Marks Of The Evil One",
       "Umbra",
       "Excelsis",
