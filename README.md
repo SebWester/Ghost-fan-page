@@ -1,12 +1,52 @@
-# React + Vite
+📖 Ghost Music Archive
+A responsive frontend-only website dedicated to the Swedish band Ghost. This project displays detailed information about their music — including lyrics, tablatures, and release data — built with React and vanilla JavaScript.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🎵 Browse Ghost's discography
 
-Currently, two official plugins are available:
+📄 Read lyrics and background info
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎸 View guitar/bass tabs
 
-## Expanding the ESLint configuration
+🛠️ Built With
+React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript (ES6+)
+
+HTML5 / CSS3
+
+🎯 Goals
+This project is part of my frontend portfolio and aims to showcase:
+
+Component-based UI architecture
+
+Semantic HTML and accessible markup
+
+Responsive design and layout control
+
+Dynamic rendering of tab/lyrics content
+
+⚙️ Installation & Usage
+
+# Clone the repo
+
+git clone https://github.com/your-username/ghost-music-archive.git
+
+# Install dependencies
+
+npm install
+
+# Start the development server
+
+npm start
+Then open http://localhost:3000 in your browser.
+
+📌 Notes
+This is a frontend-only project.
+
+All data is currently stored locally as static JSON or JS files (no backend/API).
+
+No official affiliation with Ghost or Loma Vista Recordings.
+
+📄 License
+This project is for educational and personal portfolio purposes only.
