@@ -1,0 +1,24 @@
+.song-title {
+  margin: auto;
+  width: fit-content;
+}
+
+.song-container {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  overflow-y: scroll;
+  display: flex;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.376);
+  background-color: rgba(255, 255, 255, 0.088);
+  border-radius: 12px;
+}
+
+.lyrics-container,
+.tabs-container {
+  flex: 1;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+}
